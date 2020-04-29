@@ -1,0 +1,8 @@
+version: '2'
+services:
+  vuehipster01-mongodb:
+    image: mongo:4.2.3
+    ports:
+      - '27017:27017'
+    # volumes:
+    #     - ~/volumes/jhipster/vuehipster01/mongodb/:/data/db/

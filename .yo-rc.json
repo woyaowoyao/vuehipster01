@@ -1,0 +1,51 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.tojava.myapp"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "gateway",
+    "baseName": "vuehipster01",
+    "packageName": "com.tojava.myapp",
+    "packageFolder": "com/tojava/myapp",
+    "serverPort": "8787",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "MWFmNTBlNTVmOTYyZmUzMWQ4ZWM3NjRkZDJjNWFmY2M5YzU2YzE2NDBhYTRiMGM4YTljNTM5MzgxYjY4NzMyODRmNTI2NDRhYTQ2NmQ1MmNkMjQ3MGU2NDhlZWIzMWYxYTRhODNjMTFkNDhlOTVmZDdjMjEyY2MxMTIyYTY0ZmQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "light",
+    "creationTimestamp": 1588129448772,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.7.0"
+      }
+    ],
+    "reactive": true
+  }
+}
