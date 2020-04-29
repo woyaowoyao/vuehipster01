@@ -1,14 +1,21 @@
 echo "# fullstacktrain" >> README.md
+
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/woyaowoyao/vuehipster01.git
+
 git push -u origin master
 
 git add *
+
 git commit -m " commit"
 
 git remote add origin https://github.com/woyaowoyao/vuehipster01.git
+
 git push -u origin master
 
 提交到github
