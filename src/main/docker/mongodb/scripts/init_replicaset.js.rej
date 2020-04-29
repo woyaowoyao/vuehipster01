@@ -1,0 +1,11 @@
+diff a/src/main/docker/mongodb/scripts/init_replicaset.js b/src/main/docker/mongodb/scripts/init_replicaset.js	(rejected hunks)
+@@ -3 +3 @@ if (status.errmsg === 'no replset config has been received') {
+-    rs.initiate();
++  rs.initiate();
+@@ -6,2 +6 @@ for (var i = 1; i <= param; i++) {
+-    if (i!==1)
+-        rs.add(folder+"_vuehipster01-mongodb-node_" + i + ":27017");
++  if (i !== 1) rs.add(folder + '_vuehipster01-mongodb-node_' + i + ':27017');
+@@ -10 +9 @@ cfg = rs.conf();
+-cfg.members[0].host = folder+"_vuehipster01-mongodb-node_1:27017";
++cfg.members[0].host = folder + '_vuehipster01-mongodb-node_1:27017';
