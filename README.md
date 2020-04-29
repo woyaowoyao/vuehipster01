@@ -1,5 +1,17 @@
-<<<<<<< HEAD
+echo "# fullstacktrain" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/woyaowoyao/vuehipster01.git
+git push -u origin master
 
+git add *
+git commit -m " commit"
+
+git remote add origin https://github.com/woyaowoyao/vuehipster01.git
+git push -u origin master
+
+提交到github
 # vuehipster01
 
 This application was generated using JHipster 6.8.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.8.0](https://www.jhipster.tech/documentation-archive/v6.8.0).
